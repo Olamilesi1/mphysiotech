@@ -1,0 +1,121 @@
+.blog_card_section {
+  background-color: var(--secondary-light);
+  padding: 8rem 0;
+}
+
+.blog_card_section .blog_headings {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blog_card_section .blog_headings h6 {
+  color: var(--text-color);
+  font-family: var(--general-font-family);
+  font-size: var(--sm2-font-size);
+  font-weight: 700;
+}
+
+.blog_card_section .blog_headings h3 {
+  font-family: var(--general-font-family);
+  font-weight: 400;
+  font-size: var(--medium-font-size);
+  color: var(--banner-color);
+}
+.blog_card_section .blog_headings p {
+  width: 49rem;
+  margin-top: 2rem;
+}
+
+.blog_card_section .blog_headings h4 {
+  font-family: var(--general-font-family);
+  font-size: var(--sm-font-size);
+  color: var(--banner-color);
+  font-size: var(--sm2-font-size);
+  font-weight: 400;
+  line-height: 31.22px;
+}
+
+.blog_card_section .blog_headings p {
+  font-family: var(--general-font-family);
+  font-size: var(--sm-font-size);
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--fontColor-primary-dark);
+}
+
+.blog_card_section article {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.1rem;
+  row-gap: 2rem;
+  width: 92%;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+.blog_card_section article .blog_card {
+  width: 380px;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+}
+
+.blog_card .img_content {
+  width: 100%;
+  background: var(--fontColor-primary-dark);
+  height: 20rem;
+}
+
+.blog_card .blog_text {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 4rem 4rem;
+}
+
+.blog_text h3 {
+  font-size: var(--sm2-font-size);
+  color: var(--banner-color);
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.blog_card .blog_text p {
+  color: var(--fontColor-primary-dark);
+  text-align: center;
+  font-size: var(--sm-font-size);
+  font-family: var(--general-font-family);
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.blog_card .blog_text span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog_card .blog_text span aside {
+  border: 1px solid;
+  background-color: var(--secondary-light);
+  height: 2rem;
+  border-radius: var(--border-radius-sm);
+  width: 0.1rem;
+}
+
+.blog_card .blog_text span h4 {
+  color: var(--fontColor-primary-dark);
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  gap: 1rem;
+  font-family: var(--general-font-family);
+  line-height: 28px;
+  font-weight: 500;
+}
