@@ -1,9 +1,10 @@
-import "../App.css";
+import "../../App.css";
 import { IoMdCheckmark } from "react-icons/io";
-import "../styles/pricing_plan.css";
-import Line from "../assets/imgs/Line2.png";
+// import "../styles/pricing_plan.css";
+import "../../styles/pricing_plan.css";
+import Line from "../../assets/imgs/Line2.png";
 
-function pricing_plan_card() {
+function PricingPlanCard() {
   return (
     <>
       <section className="price_card">
@@ -118,4 +119,4 @@ function pricing_plan_card() {
   );
 }
 
-export default pricing_plan_card;
+export default PricingPlanCard;

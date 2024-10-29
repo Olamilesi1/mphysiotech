@@ -5,9 +5,9 @@ import TestimonialImg2 from "../assets/imgs/testimonial2.png";
 import TestimonialImg3 from "../assets/imgs/testimonial3.png";
 import TestimonialImg4 from "../assets/imgs/testimonial4.png";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import Journey_component from "../components/journey_component.jsx";
-import Footer from "../components/footer.jsx";
-function testimonials_page() {
+import Journey_component from "../components/reusables/Journey.jsx";
+import Footer from "../components/reusables/Footer.jsx";
+function Testimonials() {
   return (
     <>
       <section className="hero_section">
@@ -99,4 +99,4 @@ function testimonials_page() {
   );
 }
 
-export default testimonials_page;
+export default Testimonials;

@@ -1,5 +1,5 @@
-import "../App.css";
-function journey_component() {
+import "../../App.css";
+function Journey() {
   return (
     <section className="journey-sec">
       <h2>Start Your Journey to Better Senior Care Today!</h2>
@@ -14,4 +14,4 @@ function journey_component() {
   );
 }
 
-export default journey_component;
+export default Journey;

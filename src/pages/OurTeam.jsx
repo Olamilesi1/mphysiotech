@@ -1,14 +1,14 @@
 import "../App.css";
-import TeamCard from "../components/teamCard.jsx";
-import Journey_component from "../components/journey_component.jsx";
-import Footer from "../components/footer.jsx";
+import TeamCard from "../components/reusables/TeamCard.jsx";
+import Journey_component from "../components/reusables/Journey.jsx";
+import Footer from "../components/reusables/Footer.jsx";
 import Logoimg1 from "../assets/imgs/logoipsum-1.png";
 import Logoimg2 from "../assets/imgs/logoipsum-2.png";
 import Logoimg3 from "../assets/imgs/logoipsum-3.png";
 import Logoimg4 from "../assets/imgs/logoipsum-4.png";
 import Logoimg5 from "../assets/imgs/logoipsum-5.png";
 import "../styles/ourteam.css";
-function ourTeam_page() {
+function OurTeam() {
   return (
     <>
       <section className="hero_section">
@@ -54,4 +54,4 @@ function ourTeam_page() {
   );
 }
 
-export default ourTeam_page;
+export default OurTeam;

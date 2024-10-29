@@ -7,9 +7,9 @@ import Logoimg2 from "../assets/imgs/logoipsum-2.png";
 import Logoimg3 from "../assets/imgs/logoipsum-3.png";
 import Logoimg4 from "../assets/imgs/logoipsum-4.png";
 import Logoimg5 from "../assets/imgs/logoipsum-5.png";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/reusables/Footer.jsx";
 import "../styles/faq.css";
-function faq_page() {
+function Faq() {
   return (
     <>
       <section className="hero_section">
@@ -124,4 +124,4 @@ function faq_page() {
   );
 }
 
-export default faq_page;
+export default Faq;

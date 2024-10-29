@@ -1,9 +1,9 @@
 import "../App.css";
-import Journey_card from "../components/journey_component.jsx";
-import Footer from "../components/footer.jsx";
+import Journey_card from "../components/reusables/Journey.jsx";
+import Footer from "../components/reusables/Footer.jsx";
 import "../styles/book_appointment.css";
 
-function book_appointment_page() {
+function Appointment() {
   return (
     <>
       <section className="hero_section">
@@ -47,4 +47,4 @@ function book_appointment_page() {
   );
 }
 
-export default book_appointment_page;
+export default Appointment;
