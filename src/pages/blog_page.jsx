@@ -1,6 +1,8 @@
 import "../styles/blog_page.css";
 import "../App.css";
 import Footer from "../components/footer";
+import { IoMdTime } from "react-icons/io";
+import { BiMessageDetail } from "react-icons/bi";
 
 function blog_page() {
   return (
@@ -13,7 +15,7 @@ function blog_page() {
       </section>
 
       <section className="blog_card_section">
-        <div className="blog_headings">
+        <div className="headings">
           <h6>. Blog & Article</h6>
           <h3>Insights into Senior Care</h3>
           <p>
@@ -30,12 +32,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>
@@ -47,12 +53,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>
@@ -64,12 +74,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>
@@ -81,12 +95,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>
@@ -98,12 +116,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>
@@ -115,12 +137,16 @@ function blog_page() {
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                elusmod tempor incididunt ut labore et.
+                eiusmod tempor incididunt ut labore et.
               </p>
               <span>
-                <h4>🕒 Feburary 30, 2023</h4>
+                <h4>
+                  <IoMdTime className="icon" /> Feburary 30, 2023
+                </h4>
                 <aside></aside>
-                <h4>💬 2 comment</h4>
+                <h4>
+                  <BiMessageDetail className="icon" /> 2 comment
+                </h4>
               </span>
             </div>
           </div>

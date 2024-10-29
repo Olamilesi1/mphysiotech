@@ -75,7 +75,8 @@ function contactus() {
           </form>
         </div>
       </section>
-      <section className="dark_sec">&nbsp;</section>
+
+      <section className="dark_sec"></section>
 
       <footer className="footer">
         <article>

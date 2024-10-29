@@ -15,14 +15,15 @@ html {
 
 :root {
   --banner-color: #07a4b5;
+  --banner-color_dark: #038796;
   --banner-hover-color: #028593;
   --secondary-light: #ecf3f4;
   --primary-dark: #969393;
   --secondary-linear-gradient: linear-gradient(
     90deg,
-    rgba(45, 45, 45, 0.7) 0%,
-    rgba(45, 45, 45, 0.4802) 31.4%,
-    rgba(249, 252, 253, 0) 100%
+    rgba(12, 12, 12, 0.7) 0%,
+    rgba(11, 10, 10, 0.48) 50.4%,
+    rgba(162, 162, 162, 0.329) 100%
   );
   --big-font-size: 70px;
   --medium-font-size: 48px;
@@ -64,6 +65,53 @@ html {
   color: var(--text-color);
 }
 
+/* headings style  */
+
+.headings {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headings h6 {
+  color: var(--text-color);
+  font-family: var(--general-font-family);
+  font-size: var(--sm2-font-size);
+  font-weight: 700;
+}
+
+.headings h3 {
+  font-family: var(--general-font-family);
+  font-weight: 400;
+  font-size: var(--medium-font-size);
+  color: var(--banner-color);
+}
+.headings p {
+  width: 680px;
+  margin-top: 1.5rem;
+}
+
+.headings h4 {
+  font-family: var(--general-font-family);
+  font-size: var(--sm-font-size);
+  color: var(--banner-color);
+  font-size: var(--sm2-font-size);
+  font-weight: 400;
+  line-height: 31.22px;
+}
+
+.headings p {
+  font-family: var(--general-font-family);
+  font-size: var(--sm-font-size);
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--fontColor-primary-dark);
+}
+
 /* button style */
 .btn-style {
   width: 116px;
@@ -82,4 +130,113 @@ html {
 
 .btn-style:hover {
   background-color: var(--banner-hover-color);
+}
+
+/**************** team_card style ****************/
+.team_card {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 320px;
+}
+
+.team_card figure {
+  width: 100%;
+  height: 390px;
+  background: var(--primary-dark);
+  margin-bottom: 2rem;
+}
+
+.team_card div {
+  padding: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  background-color: #fff;
+}
+
+.team_card div span {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.team_card div span .icon {
+  width: 20.93px;
+  height: 20.83px;
+  color: var(--banner-color);
+}
+
+.team_card div h5 {
+  font-family: var(--general-font-family);
+  font-size: var(--h5-size);
+  font-weight: 400;
+  line-height: 31.22px;
+  color: var(--banner-color);
+}
+
+.team_card div h6 {
+  font-family: var(--general-font-family);
+  font-size: var(--sm2-font-size);
+  font-weight: 700;
+  line-height: 26.02px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* journey-sec style */
+.journey-sec {
+  margin: 4rem 0;
+  background: var(--secondary-linear-gradient);
+  padding: 7rem 6rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+.journey-sec h2 {
+  font-family: var(--general-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 90px;
+  text-align: left;
+  width: 1000px;
+  color: var(--btn-text-color);
+}
+
+.journey-sec p {
+  font-family: var(--general-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  width: 537px;
+  color: var(--btn-text-color);
+}
+
+/* page_links sty */
+.page_links {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.page_links h5 {
+  font-family: var(--general-font-family);
+  font-size: var(--h5-size);
+  font-weight: 400;
+  line-height: 31.22px;
+  color: var(--fontColor-primary-dark);
+  width: 408px;
+}
+
+.page_links figure {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.page_links figure img {
+  width: 110px;
 }
