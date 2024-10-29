@@ -11,7 +11,7 @@ import { FaChevronRight } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../assets/imgs/logo_img.svg";
 
-function contactus() {
+function Contact() {
   return (
     <>
       <section className="hero_section">
@@ -180,4 +180,4 @@ function contactus() {
   );
 }
 
-export default contactus;
+export default Contact;

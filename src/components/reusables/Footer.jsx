@@ -1,5 +1,5 @@
-import "../styles/footer.css";
-import "../App.css";
+import "../../styles/footer.css";
+import "../../App.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -9,8 +9,8 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
-import Logo from "../assets/imgs/logo_img.svg";
-function footer() {
+import Logo from "../../assets/imgs/logo_img.svg";
+function Footer() {
   return (
     <footer>
       <article className="footer-cards">
@@ -145,4 +145,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

@@ -1,8 +1,8 @@
 import "../App.css";
-import Journey_component from "../components/journey_component.jsx";
-import Footer from "../components/footer.jsx";
-import Pricing_plan_card from "../components/pricing_plan_card.jsx";
-function pricing_plan() {
+import Journey_component from "../components/reusables/Journey.jsx";
+import Footer from "../components/reusables/Footer.jsx";
+import Pricing_plan_card from "../components/reusables/PricingPlanCards.jsx";
+function PricingPlan() {
   return (
     <>
       <section className="hero_section">
@@ -30,4 +30,4 @@ function pricing_plan() {
   );
 }
 
-export default pricing_plan;
+export default PricingPlan;

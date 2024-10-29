@@ -1,10 +1,10 @@
 import "../styles/blog_page.css";
 import "../App.css";
-import Footer from "../components/footer";
+import Footer from "../components/reusables/Footer";
 import { IoMdTime } from "react-icons/io";
 import { BiMessageDetail } from "react-icons/bi";
 
-function blog_page() {
+function BlogPage() {
   return (
     <>
       <section className="hero_section">
@@ -157,4 +157,4 @@ function blog_page() {
   );
 }
 
-export default blog_page;
+export default BlogPage;
