@@ -1,7 +1,8 @@
 import "../../App.css";
+import style from '../../styles/journey.module.css'
 function Journey() {
   return (
-    <section className="journey-sec">
+    <section className={style.journey}>
       <h2>Start Your Journey to Better Senior Care Today!</h2>
       <p>
         Aliquam vestibulum morbi blandit cursus risus. Id interdum velit laoreet

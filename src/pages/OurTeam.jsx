@@ -1,6 +1,6 @@
 import "../App.css";
 import TeamCard from "../components/reusables/TeamCard.jsx";
-import Journey_component from "../components/reusables/Journey.jsx";
+import Journey from "../components/reusables/Journey.jsx";
 import Footer from "../components/reusables/Footer.jsx";
 import Logoimg1 from "../assets/imgs/logoipsum-1.png";
 import Logoimg2 from "../assets/imgs/logoipsum-2.png";
@@ -38,7 +38,7 @@ function OurTeam() {
         </article>
       </section>
 
-      <Journey_component />
+      <Journey/>
       <section className="page_links">
         <h5>Trusted By The 1000+ Modern Teams And Companies</h5>
         <figure>

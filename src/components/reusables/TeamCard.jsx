@@ -1,10 +1,10 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
-import "../../App.css";
+import style from '../../styles/team-card.module.css'
 function TeamCard() {
   return (
-    <section className="team_card">
+    <section className={style.teamCard}>
       <figure></figure>
       <div>
         <span>

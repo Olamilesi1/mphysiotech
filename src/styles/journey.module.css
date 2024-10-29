@@ -1,0 +1,28 @@
+/* journey style */
+.journey {
+    margin: 4rem 0;
+    background: var(--secondary-linear-gradient);
+    padding: 7rem 6rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+  .journey h2 {
+    font-family: var(--general-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    width: 1000px;
+    color: var(--btn-text-color);
+  }
+  
+  .journey p {
+    font-family: var(--general-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    width: 537px;
+    color: var(--btn-text-color);
+  }
