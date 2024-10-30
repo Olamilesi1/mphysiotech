@@ -1,12 +1,14 @@
 import "../styles/blog_page.css";
 import "../App.css";
 import Footer from "../components/reusables/Footer";
+import Header from "../components/reusables/Header";
 import { IoMdTime } from "react-icons/io";
 import { BiMessageDetail } from "react-icons/bi";
 
 function BlogPage() {
   return (
     <>
+      <Header />
       <section className="hero_section">
         <h1>Blog & Article</h1>
         <p>

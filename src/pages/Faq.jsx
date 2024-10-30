@@ -9,9 +9,11 @@ import Logoimg4 from "../assets/imgs/logoipsum-4.png";
 import Logoimg5 from "../assets/imgs/logoipsum-5.png";
 import Footer from "../components/reusables/Footer.jsx";
 import "../styles/faq.css";
+import Header from "../components/reusables/Header";
 function Faq() {
   return (
     <>
+      <Header />
       <section className="hero_section">
         <h1>Frequently Asked Questions</h1>
         <p>

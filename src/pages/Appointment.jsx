@@ -2,10 +2,12 @@ import "../App.css";
 import Journey_card from "../components/reusables/Journey.jsx";
 import Footer from "../components/reusables/Footer.jsx";
 import "../styles/book_appointment.css";
+import Header from "../components/reusables/Header";
 
 function Appointment() {
   return (
     <>
+      <Header />
       <section className="hero_section">
         <h1>Book Appointment</h1>
         <p>

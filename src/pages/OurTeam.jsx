@@ -8,9 +8,11 @@ import Logoimg3 from "../assets/imgs/logoipsum-3.png";
 import Logoimg4 from "../assets/imgs/logoipsum-4.png";
 import Logoimg5 from "../assets/imgs/logoipsum-5.png";
 import "../styles/ourteam.css";
+import Header from "../components/reusables/Header";
 function OurTeam() {
   return (
     <>
+      <Header />
       <section className="hero_section">
         <h1>Our Team</h1>
         <p>
@@ -38,7 +40,7 @@ function OurTeam() {
         </article>
       </section>
 
-      <Journey/>
+      <Journey />
       <section className="page_links">
         <h5>Trusted By The 1000+ Modern Teams And Companies</h5>
         <figure>

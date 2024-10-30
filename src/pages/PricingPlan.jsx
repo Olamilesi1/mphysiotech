@@ -1,3 +1,4 @@
+import Header from "../components/reusables/Header";
 import "../App.css";
 import Journey_component from "../components/reusables/Journey.jsx";
 import Footer from "../components/reusables/Footer.jsx";
@@ -5,6 +6,7 @@ import Pricing_plan_card from "../components/reusables/PricingPlanCards.jsx";
 function PricingPlan() {
   return (
     <>
+      <Header />
       <section className="hero_section">
         <h1>Pricing Plan</h1>
         <p>
